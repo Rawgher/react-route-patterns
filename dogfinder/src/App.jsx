@@ -20,8 +20,6 @@ function App() {
       .then((d) => setDogs(d.dogs));
   }, []);
 
-  console.log(dogs);
-
   const FilteredDog = () => {
     const { name } = useParams();
     const dog = dogs.find((d) => d.name.toLowerCase() === name.toLowerCase());
