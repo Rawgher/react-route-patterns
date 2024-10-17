@@ -1,0 +1,31 @@
+.AllDogs {
+  background-color: lightgray;
+  border-radius: 5px;
+  color: #000;
+  padding: 40px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.AllDogs-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.AllDogs-card {
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.AllDogs-facts {
+  margin-bottom: 30px;
+}
+
+.AllDogs-facts li {
+  list-style: none;
+  text-align: left;
+}

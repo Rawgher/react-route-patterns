@@ -1,0 +1,18 @@
+.Nav {
+  position: absolute;
+  top: 0;
+  background-color: lightgray;
+  width: 100%;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Nav-link {
+  color: black;
+}
