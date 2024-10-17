@@ -1,0 +1,23 @@
+.Color {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.Color p {
+  font-size: 24px;
+}
+
+.Color h1 {
+  font-size: 150px;
+  margin-top: 0;
+}
+
+.Color-btn {
+  background-color: lightgrey;
+  color: #000;
+}
